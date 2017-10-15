@@ -14,9 +14,13 @@ struct cellData {
     let img : UIImage!
 }
 
+
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+    @IBOutlet weak var tableView: UITableView!
     var arrayOfCellData = [cellData]()
+    
     
     override func viewDidLoad() {
         arrayOfCellData = [
@@ -39,12 +43,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return cell
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForRowAt indßexPath: IndexPath) -> CGFloat {
         
         return 200
         
     }
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "marketSegue"{
+            let market = segue.destination as! MarketViewController
+            market.name = arrayOfCellData[(tableView.indexPathForSelectedRow?.row)!].text
+        }
 
-}
+        
+
+}}
 
