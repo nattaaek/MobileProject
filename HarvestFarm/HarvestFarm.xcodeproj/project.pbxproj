@@ -12,6 +12,7 @@
 		480B807E1F9359B600DE58D8 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807B1F9359B600DE58D8 /* apple.png */; };
 		480B807F1F9359B600DE58D8 /* animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807C1F9359B600DE58D8 /* animal.png */; };
 		480B80801F9359B600DE58D8 /* vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807D1F9359B600DE58D8 /* vegetable.png */; };
+		480B80841F93640700DE58D8 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B80831F93640700DE58D8 /* MarketViewController.swift */; };
 		48948A8A1F93424300B1F901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A891F93424300B1F901 /* AppDelegate.swift */; };
 		48948A8C1F93424300B1F901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A8B1F93424300B1F901 /* ViewController.swift */; };
 		48948A8F1F93424300B1F901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48948A8D1F93424300B1F901 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		480B807B1F9359B600DE58D8 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../../../../Downloads/my-icons-collection-3/png/apple.png"; sourceTree = "<group>"; };
 		480B807C1F9359B600DE58D8 /* animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = animal.png; path = "../../../../Downloads/my-icons-collection-3/png/animal.png"; sourceTree = "<group>"; };
 		480B807D1F9359B600DE58D8 /* vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vegetable.png; path = "../../../../Downloads/my-icons-collection-3/png/vegetable.png"; sourceTree = "<group>"; };
+		480B80831F93640700DE58D8 /* MarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		48948A861F93424300B1F901 /* HarvestFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarvestFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48948A891F93424300B1F901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48948A8B1F93424300B1F901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				48948A891F93424300B1F901 /* AppDelegate.swift */,
 				48948A8B1F93424300B1F901 /* ViewController.swift */,
 				48948A8D1F93424300B1F901 /* Main.storyboard */,
+				480B80831F93640700DE58D8 /* MarketViewController.swift */,
 				48948A901F93424300B1F901 /* Assets.xcassets */,
 				48948A921F93424300B1F901 /* LaunchScreen.storyboard */,
 				480B806A1F93499A00DE58D8 /* TableViewCell.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480B80841F93640700DE58D8 /* MarketViewController.swift in Sources */,
 				48948A8C1F93424300B1F901 /* ViewController.swift in Sources */,
 				480B806C1F93499A00DE58D8 /* TableViewCell.swift in Sources */,
 				48948A8A1F93424300B1F901 /* AppDelegate.swift in Sources */,
