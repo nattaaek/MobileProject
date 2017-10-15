@@ -50,7 +50,7 @@
         <!--Home-->
         <scene sceneID="SuM-Ov-uAM">
             <objects>
-                <viewController id="Hoy-Xa-dCk" sceneMemberID="viewController">
+                <viewController id="Hoy-Xa-dCk" customClass="ViewController" customModule="HarvestFarm" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vvr-w5-fVX"/>
                         <viewControllerLayoutGuide type="bottom" id="WdL-x7-zz5"/>
@@ -82,6 +82,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Hoy-Xa-dCk" id="NCD-Qi-aQD"/>
+                                    <outlet property="delegate" destination="Hoy-Xa-dCk" id="kqd-7D-EuP"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
