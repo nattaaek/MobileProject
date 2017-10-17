@@ -71,9 +71,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="342" height="62"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="ytP-vJ-gfn" kind="push" identifier="marketSegue" id="rz5-Ce-OHG"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -88,6 +85,7 @@
                     <navigationItem key="navigationItem" id="HN9-A2-euG"/>
                     <connections>
                         <outlet property="tableView" destination="5pZ-05-wH6" id="svR-t8-qGM"/>
+                        <segue destination="ytP-vJ-gfn" kind="show" identifier="marketSegue" id="UtF-sn-O9P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GqL-U3-Mfd" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -9,23 +9,20 @@
 /* Begin PBXBuildFile section */
 		480B806C1F93499A00DE58D8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B806A1F93499A00DE58D8 /* TableViewCell.swift */; };
 		480B806D1F93499A00DE58D8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480B806B1F93499A00DE58D8 /* TableViewCell.xib */; };
-		480B807E1F9359B600DE58D8 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807B1F9359B600DE58D8 /* apple.png */; };
-		480B807F1F9359B600DE58D8 /* animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807C1F9359B600DE58D8 /* animal.png */; };
-		480B80801F9359B600DE58D8 /* vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807D1F9359B600DE58D8 /* vegetable.png */; };
 		480B80841F93640700DE58D8 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B80831F93640700DE58D8 /* MarketViewController.swift */; };
 		48948A8A1F93424300B1F901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A891F93424300B1F901 /* AppDelegate.swift */; };
 		48948A8C1F93424300B1F901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A8B1F93424300B1F901 /* ViewController.swift */; };
 		48948A8F1F93424300B1F901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48948A8D1F93424300B1F901 /* Main.storyboard */; };
 		48948A911F93424300B1F901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48948A901F93424300B1F901 /* Assets.xcassets */; };
 		48948A941F93424300B1F901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48948A921F93424300B1F901 /* LaunchScreen.storyboard */; };
+		8487D05E1F95CC1000AA3AE8 /* animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 8487D05B1F95CC1000AA3AE8 /* animal.png */; };
+		8487D05F1F95CC1000AA3AE8 /* fruit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8487D05C1F95CC1000AA3AE8 /* fruit.png */; };
+		8487D0601F95CC1000AA3AE8 /* vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 8487D05D1F95CC1000AA3AE8 /* vegetable.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		480B806A1F93499A00DE58D8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		480B806B1F93499A00DE58D8 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		480B807B1F9359B600DE58D8 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../../../../Downloads/my-icons-collection-3/png/apple.png"; sourceTree = "<group>"; };
-		480B807C1F9359B600DE58D8 /* animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = animal.png; path = "../../../../Downloads/my-icons-collection-3/png/animal.png"; sourceTree = "<group>"; };
-		480B807D1F9359B600DE58D8 /* vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vegetable.png; path = "../../../../Downloads/my-icons-collection-3/png/vegetable.png"; sourceTree = "<group>"; };
 		480B80831F93640700DE58D8 /* MarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		48948A861F93424300B1F901 /* HarvestFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarvestFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48948A891F93424300B1F901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +31,9 @@
 		48948A901F93424300B1F901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48948A931F93424300B1F901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48948A951F93424300B1F901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8487D05B1F95CC1000AA3AE8 /* animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animal.png; sourceTree = "<group>"; };
+		8487D05C1F95CC1000AA3AE8 /* fruit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fruit.png; sourceTree = "<group>"; };
+		8487D05D1F95CC1000AA3AE8 /* vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vegetable.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,16 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		480B806E1F934D7200DE58D8 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				480B807B1F9359B600DE58D8 /* apple.png */,
-				480B807C1F9359B600DE58D8 /* animal.png */,
-				480B807D1F9359B600DE58D8 /* vegetable.png */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
 		48948A7D1F93424300B1F901 = {
 			isa = PBXGroup;
 			children = (
@@ -82,8 +72,10 @@
 				480B80831F93640700DE58D8 /* MarketViewController.swift */,
 				48948A901F93424300B1F901 /* Assets.xcassets */,
 				48948A921F93424300B1F901 /* LaunchScreen.storyboard */,
+				8487D05B1F95CC1000AA3AE8 /* animal.png */,
+				8487D05C1F95CC1000AA3AE8 /* fruit.png */,
+				8487D05D1F95CC1000AA3AE8 /* vegetable.png */,
 				480B806A1F93499A00DE58D8 /* TableViewCell.swift */,
-				480B806E1F934D7200DE58D8 /* Assets */,
 				480B806B1F93499A00DE58D8 /* TableViewCell.xib */,
 				48948A951F93424300B1F901 /* Info.plist */,
 			);
@@ -151,11 +143,11 @@
 			files = (
 				48948A941F93424300B1F901 /* LaunchScreen.storyboard in Resources */,
 				480B806D1F93499A00DE58D8 /* TableViewCell.xib in Resources */,
+				8487D05F1F95CC1000AA3AE8 /* fruit.png in Resources */,
+				8487D0601F95CC1000AA3AE8 /* vegetable.png in Resources */,
+				8487D05E1F95CC1000AA3AE8 /* animal.png in Resources */,
 				48948A911F93424300B1F901 /* Assets.xcassets in Resources */,
-				480B80801F9359B600DE58D8 /* vegetable.png in Resources */,
 				48948A8F1F93424300B1F901 /* Main.storyboard in Resources */,
-				480B807E1F9359B600DE58D8 /* apple.png in Resources */,
-				480B807F1F9359B600DE58D8 /* animal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,7 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         arrayOfCellData = [
             cellData(cell : 1, text: "vegetable", img: UIImage(named: "vegetable.png")),
-            cellData(cell : 2, text: "fruit", img: UIImage(named: "apple.png")),
+            cellData(cell : 2, text: "fruit", img: UIImage(named: "fruit.png")),
             cellData(cell : 3, text: "animal", img: UIImage(named: "animal.png"))
         ]
     }
@@ -49,12 +49,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "marketSegue", sender: self)
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "marketSegue"{
+        
             let market = segue.destination as! MarketViewController
             market.name = arrayOfCellData[(tableView.indexPathForSelectedRow?.row)!].text
-        }
+        
 
         
 
