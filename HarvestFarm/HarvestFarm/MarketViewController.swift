@@ -11,6 +11,7 @@ import UIKit
 class MarketViewController: UIViewController {
 
     var name = ""
+    var img = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()

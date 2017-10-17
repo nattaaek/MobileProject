@@ -19,15 +19,13 @@ struct cellData {
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
-    var arrayOfCellData = [cellData]()
+    var arrayOfCellData = [cellData(cell : 1, text: "vegetable", img: UIImage(named: "vegetable.png")),
+                           cellData(cell : 2, text: "fruit", img: UIImage(named: "apple.png")),
+                           cellData(cell : 3, text: "animal", img: UIImage(named: "animal.png"))]
     
     
     override func viewDidLoad() {
-        arrayOfCellData = [
-            cellData(cell : 1, text: "vegetable", img: UIImage(named: "vegetable.png")),
-            cellData(cell : 2, text: "fruit", img: UIImage(named: "apple.png")),
-            cellData(cell : 3, text: "animal", img: UIImage(named: "animal.png"))
-        ]
+
     }
     
      func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

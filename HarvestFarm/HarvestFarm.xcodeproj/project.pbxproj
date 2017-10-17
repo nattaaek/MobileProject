@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		480B806C1F93499A00DE58D8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B806A1F93499A00DE58D8 /* TableViewCell.swift */; };
 		480B806D1F93499A00DE58D8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480B806B1F93499A00DE58D8 /* TableViewCell.xib */; };
-		480B807E1F9359B600DE58D8 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807B1F9359B600DE58D8 /* apple.png */; };
-		480B807F1F9359B600DE58D8 /* animal.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807C1F9359B600DE58D8 /* animal.png */; };
-		480B80801F9359B600DE58D8 /* vegetable.png in Resources */ = {isa = PBXBuildFile; fileRef = 480B807D1F9359B600DE58D8 /* vegetable.png */; };
 		480B80841F93640700DE58D8 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B80831F93640700DE58D8 /* MarketViewController.swift */; };
+		480B80881F9382C500DE58D8 /* apple.svg in Resources */ = {isa = PBXBuildFile; fileRef = 480B80851F9382C500DE58D8 /* apple.svg */; };
+		480B80891F9382C500DE58D8 /* vegetables.svg in Resources */ = {isa = PBXBuildFile; fileRef = 480B80861F9382C500DE58D8 /* vegetables.svg */; };
+		480B808A1F9382C500DE58D8 /* food.svg in Resources */ = {isa = PBXBuildFile; fileRef = 480B80871F9382C500DE58D8 /* food.svg */; };
 		48948A8A1F93424300B1F901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A891F93424300B1F901 /* AppDelegate.swift */; };
 		48948A8C1F93424300B1F901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48948A8B1F93424300B1F901 /* ViewController.swift */; };
 		48948A8F1F93424300B1F901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48948A8D1F93424300B1F901 /* Main.storyboard */; };
@@ -23,10 +23,10 @@
 /* Begin PBXFileReference section */
 		480B806A1F93499A00DE58D8 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		480B806B1F93499A00DE58D8 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		480B807B1F9359B600DE58D8 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../../../../Downloads/my-icons-collection-3/png/apple.png"; sourceTree = "<group>"; };
-		480B807C1F9359B600DE58D8 /* animal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = animal.png; path = "../../../../Downloads/my-icons-collection-3/png/animal.png"; sourceTree = "<group>"; };
-		480B807D1F9359B600DE58D8 /* vegetable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vegetable.png; path = "../../../../Downloads/my-icons-collection-3/png/vegetable.png"; sourceTree = "<group>"; };
 		480B80831F93640700DE58D8 /* MarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
+		480B80851F9382C500DE58D8 /* apple.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = apple.svg; sourceTree = "<group>"; };
+		480B80861F9382C500DE58D8 /* vegetables.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = vegetables.svg; sourceTree = "<group>"; };
+		480B80871F9382C500DE58D8 /* food.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = food.svg; sourceTree = "<group>"; };
 		48948A861F93424300B1F901 /* HarvestFarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarvestFarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48948A891F93424300B1F901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48948A8B1F93424300B1F901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,16 +47,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		480B806E1F934D7200DE58D8 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				480B807B1F9359B600DE58D8 /* apple.png */,
-				480B807C1F9359B600DE58D8 /* animal.png */,
-				480B807D1F9359B600DE58D8 /* vegetable.png */,
-			);
-			name = Assets;
-			sourceTree = "<group>";
-		};
 		48948A7D1F93424300B1F901 = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +71,11 @@
 				48948A8D1F93424300B1F901 /* Main.storyboard */,
 				480B80831F93640700DE58D8 /* MarketViewController.swift */,
 				48948A901F93424300B1F901 /* Assets.xcassets */,
+				480B80851F9382C500DE58D8 /* apple.svg */,
+				480B80861F9382C500DE58D8 /* vegetables.svg */,
+				480B80871F9382C500DE58D8 /* food.svg */,
 				48948A921F93424300B1F901 /* LaunchScreen.storyboard */,
 				480B806A1F93499A00DE58D8 /* TableViewCell.swift */,
-				480B806E1F934D7200DE58D8 /* Assets */,
 				480B806B1F93499A00DE58D8 /* TableViewCell.xib */,
 				48948A951F93424300B1F901 /* Info.plist */,
 			);
@@ -149,13 +141,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480B808A1F9382C500DE58D8 /* food.svg in Resources */,
+				480B80881F9382C500DE58D8 /* apple.svg in Resources */,
 				48948A941F93424300B1F901 /* LaunchScreen.storyboard in Resources */,
 				480B806D1F93499A00DE58D8 /* TableViewCell.xib in Resources */,
 				48948A911F93424300B1F901 /* Assets.xcassets in Resources */,
-				480B80801F9359B600DE58D8 /* vegetable.png in Resources */,
 				48948A8F1F93424300B1F901 /* Main.storyboard in Resources */,
-				480B807E1F9359B600DE58D8 /* apple.png in Resources */,
-				480B807F1F9359B600DE58D8 /* animal.png in Resources */,
+				480B80891F9382C500DE58D8 /* vegetables.svg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
