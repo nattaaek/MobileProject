@@ -13,7 +13,7 @@ class MarketViewController: UIViewController, UITableViewDataSource, UITableView
     var name = ""
     var arr = [""]
     @IBOutlet weak var tableView: UITableView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         if name == "vegetable" {
@@ -31,7 +31,11 @@ class MarketViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        
+        title.text = arr[indexPath.row]
+        
+        return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
