@@ -15,10 +15,7 @@ class MarketViewController: UIViewController, UITableViewDataSource, UITableView
     var price = [""]
     @IBOutlet weak var tableView: UITableView!
 
-<<<<<<< HEAD
-=======
-    
->>>>>>> b86a3de88f78a31a931d93f53c12375b280c2fa3
+
     override func viewDidLoad() {
         super.viewDidLoad()
         if name == "vegetable" {
@@ -39,18 +36,10 @@ class MarketViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-<<<<<<< HEAD
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
-        
-        title.text = arr[indexPath.row]
-        
-        return cell
-=======
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! UITableViewCell
         cell.textLabel?.text = arr[indexPath.row]
         cell.detailTextLabel?.text = price[indexPath.row]
         return cell;
->>>>>>> b86a3de88f78a31a931d93f53c12375b280c2fa3
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
